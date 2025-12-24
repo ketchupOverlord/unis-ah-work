@@ -1,0 +1,157 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "price": 199000,
+      "category": "Fantasy",
+      "description": "Câu chuyện về cậu bé Harry Potter phát hiện mình là phù thủy và bắt đầu hành trình tại Trường Phù thủy và Pháp sư Hogwarts. Cuốn đầu tiên trong series Harry Potter đình đám.",
+      "image": "/img/books/hpotter.jpg",
+      "rating": 4.9,
+      "publishedYear": 1997,
+      "pages": 332,
+      "isbn": "978-0-7475-3269-9",
+      "featured": true
+    },
+    {
+      "id": "2",
+      "title": "Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "price": 259000,
+      "category": "Fantasy",
+      "description": "Anh chàng hobbit Frodo Baggins nhận nhiệm vụ phá hủy Chiếc Nhẫn Chúa tối cao để cứu lấy Trung Địa khỏi bóng tối của Chúa tể Sauron.",
+      "image": "/img/books/lotr.jpg",
+      "rating": 4.8,
+      "publishedYear": 1954,
+      "pages": 423,
+      "isbn": "978-0-618-00221-3",
+      "featured": true
+    },
+    {
+      "id": "3",
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "price": 149000,
+      "category": "Classic",
+      "description": "Câu chuyện tình yêu đầy bi kịch giữa Catherine Earnshaw và Heathcliff trên vùng đồng hoang Yorkshire. Một kiệt tác văn học Anh thế kỷ 19.",
+      "image": "/img/books/wh.jpg",
+      "rating": 4.6,
+      "publishedYear": 1847,
+      "pages": 416,
+      "isbn": "978-0-14-143955-6",
+      "featured": false
+    },
+    {
+      "id": "4",
+      "title": "Metamorphosis",
+      "author": "Franz Kafka",
+      "price": 89000,
+      "category": "Classic",
+      "description": "Gregor Samsa thức dậy và phát hiện mình đã biến thành một con bọ khổng lồ. Tác phẩm kinh điển về sự cô đơn và phi lý của tồn tại.",
+      "image": "/img/books/fk.jpg",
+      "rating": 4.5,
+      "publishedYear": 1915,
+      "pages": 201,
+      "isbn": "978-0-8112-1564-8",
+      "featured": true
+    },
+    {
+      "id": "5",
+      "title": "Moby Dick",
+      "author": "Herman Melville",
+      "price": 179000,
+      "category": "Adventure",
+      "description": "Thuyền trưởng Ahab ám ảnh với việc truy lùng con cá voi trắng Moby Dick để trả thù. Kiệt tác văn học hàng hải Mỹ.",
+      "image": "/img/books/mbdick.jpg",
+      "rating": 4.4,
+      "publishedYear": 1851,
+      "pages": 635,
+      "isbn": "978-1-85326-008-7",
+      "featured": false
+    },
+    {
+      "id": "6",
+      "title": "Sherlock Holmes: Short Series",
+      "author": "Arthur Conan Doyle",
+      "price": 169000,
+      "category": "Mystery",
+      "description": "Tuyển tập những vụ án kinh điển của thám tử lừng danh Sherlock Holmes và người bạn bác sĩ Watson. Bao gồm 'Vụ án dải băng đốm' và nhiều truyện nổi tiếng khác.",
+      "image": "/img/books/sherlock.jpg",
+      "rating": 4.7,
+      "publishedYear": 1892,
+      "pages": 480,
+      "isbn": "978-0-553-21241-9",
+      "featured": true
+    },
+    {
+      "id": "c3d0",
+      "title": "tesssttt",
+      "author": "testAuthor",
+      "price": 99999,
+      "category": "Horror",
+      "description": "lolololololololololololololololololololololo",
+      "image": "img/background/default.jpg",
+      "rating": 4,
+      "publishedYear": 2025,
+      "pages": 0,
+      "isbn": "",
+      "featured": false
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "email": "admin@bookstore.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "User",
+      "email": "user@gmail.com",
+      "password": "user123",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "username": "abcde",
+      "email": "abcde@gmail.com",
+      "password": "xdd123",
+      "role": "user"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Fantasy",
+      "count": 2
+    },
+    {
+      "id": "2",
+      "name": "Classic",
+      "count": 2
+    },
+    {
+      "id": "3",
+      "name": "Adventure",
+      "count": 1
+    },
+    {
+      "id": "4",
+      "name": "Mystery",
+      "count": 1
+    },
+    {
+      "id": "5",
+      "name": "Science Fiction",
+      "count": 0
+    },
+    {
+      "id": "6",
+      "name": "Romance",
+      "count": 0
+    }
+  ]
+}
