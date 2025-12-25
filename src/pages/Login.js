@@ -108,7 +108,7 @@ const Login = () => {
               <p className="mb-0">
                 <small>Demo accounts:</small><br />
                 <small>Admin: admin@bookstore.com / PW: admin123</small><br />
-                <small>User: user@bookstore.com / PW: user123</small>
+                <small>User: user@gmail.com / PW: user123</small>
               </p>
             </div>
           </Form>
@@ -117,5 +117,6 @@ const Login = () => {
     </div>
   );
 };
+
 
 export default Login;
